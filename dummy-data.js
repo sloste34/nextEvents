@@ -1,8 +1,8 @@
 const DUMMY_EVENTS = [
   {
     id: 'e1',
-    title: 'Seoul night tour',
-    description: 'Travel night street of Seoul, South Korea.',
+    title: 'Seoul Night Tour',
+    description: 'Travel night street of Seoul!',
     location: 'Seoul Station',
     date: '2023-05-12',
     image: 'images/seoul-night.jpg',
@@ -10,7 +10,7 @@ const DUMMY_EVENTS = [
   },
   {
     id: 'e2',
-    title: 'Tokyo night tour',
+    title: 'Tokyo Night Tour',
     description: "Let's enjoy wonderful night street of Tokyo.",
     location: 'Shibuya Station',
     date: '2023-05-30',
@@ -19,9 +19,9 @@ const DUMMY_EVENTS = [
   },
   {
     id: 'e3',
-    title: 'Taipei night market tour',
+    title: 'Taipei Night Market Tour',
     description: 'Enjoy wonderful foods and view of Taipei night market. ',
-    location: 'Taipei 101',
+    location: 'Taipei Station',
     date: '2023-04-10',
     image: 'images/taipei-night.jpg',
     isFeatured: true,
