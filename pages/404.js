@@ -1,7 +1,8 @@
 function ErrorPage() {
   return (
     <div>
-      <h1>Error 404 Page</h1>
+      <h1>Wrong Link!</h1>
+      <h2>404 Error Page</h2>
     </div>
   );
 }
