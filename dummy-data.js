@@ -2,7 +2,7 @@ const DUMMY_EVENTS = [
   {
     id: 'e1',
     title: 'Seoul Night Tour',
-    description: 'Travel night street of Seoul!',
+    description: 'Travel beautiful night street of Seoul!',
     location: 'Seoul Station',
     date: '2023-05-12',
     image: 'images/seoul-night.jpg',
@@ -20,7 +20,8 @@ const DUMMY_EVENTS = [
   {
     id: 'e3',
     title: 'Taipei Night Market Tour',
-    description: 'Enjoy wonderful foods and view of Taipei night market. ',
+    description:
+      'Enjoy delicious foods and wonderful view of Taipei night market. ',
     location: 'Taipei Station',
     date: '2023-04-10',
     image: 'images/taipei-night.jpg',
