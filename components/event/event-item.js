@@ -4,12 +4,14 @@ import styles from './event-item.module.css';
 function EventItem(props) {
   const { title, image, date, location, id } = props;
 
+  //event리스트의 date를 받아서 humanReadableDate로 데이터를 가공해준다.
   const humanReadableDate = new Date(date).toLocaleDateString('en-US', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
   });
 
+  //각각의 id를 받아서 events의 페이지로 넘어 갈 수 있게 해준다.
   const exploreLink = `/events/${id}`;
 
   return (
