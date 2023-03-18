@@ -1,3 +1,5 @@
+Project Description
+
 Udemy Next.js Course nextEvent Project
 
 Planning The Project Routes
@@ -6,6 +8,8 @@ Planning The Project Routes
 '/events' - Events Page(show all Events)
 '/events/[some-id]' - Event Detail Page(show selected Event)
 '/events/...slug' - Filtered Events Page(show filtered Events)
+
+---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
