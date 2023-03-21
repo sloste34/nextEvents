@@ -30,6 +30,7 @@ function EventItem(props) {
         <div className={styles.actions}>
           <Link href={exploreLink}>Explore Event</Link>
         </div>
+        <div>container</div>
       </div>
     </li>
   );
