@@ -10,6 +10,7 @@ function EventItem(props) {
     month: 'long',
     year: 'numeric',
   });
+  //위 로직 어떻게 작동하는지 공부 필요
 
   //각각의 id를 받아서 events의 페이지로 넘어 갈 수 있게 해준다.
   const exploreLink = `/events/${id}`;
